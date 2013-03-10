@@ -17,6 +17,10 @@ And add message.js to your other script files of your project on the index.html.
 
 <pre><code>$('#text').text(GetMessage("IDS_EXAMPLE");</code></pre>
 
+### PLANNED FEATURES ####
+
+* Support of more languages and delicts
+* Support of JSON and XML lists
 
 ### LICENSE ####
 
