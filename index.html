@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8"/>
     <meta name="description" content="A sample of usage the MessageSystem"/>
@@ -24,21 +23,26 @@
     -->
     <script type="text/javascript" src="./js/message.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
 </head>
 
 <body>
     <div data-role="page">
-        <div data-role="header" data-position="fixed">
-			<h1><script type="text/javascript">document.write(GetMessage("IDS_SINGLEPAGE"));</script></h1>
+        <div data-role="header" data-position="fixed" id="top">
+			<h1 id="header"></h1>
         </div><!-- /header -->
 
         <div data-role="content">
-            <p id="text"></p>
+            <p id="content1"></p>
+            <p id="content2"></p>
+            
+            <a href="http://www.scidev.eu" data-role="button" data-inline="true" checklongurl="true" id="homepage"></a>
+            <a href="http://github.com/SciDev030/MessageSystem" data-role="button" data-inline="true" checklongurl="true" id="source"></a>
         </div><!-- /content -->
 
         <div data-role="footer" data-position="fixed">
-            <h4><script type="text/javascript">document.write(GetMessage("IDS_FOOTERCONTENT"));</script></h4>
+            <a href="#top" data-role="button" id="footer_button"></a>
         </div><!-- /footer -->
     </div><!-- /page -->
 </body>

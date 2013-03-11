@@ -1,26 +1,28 @@
 # MessageSystem #
-## A useful script to create multilanguage application for Tizen ##
+## A useful script to create multi-language application for Tizen ##
+
+### Requirements ###
+
+Tizen: nothing
+otherwise: jQuery
+
+
+### DESCRIPTION ###
+
+With MessageSystem you can add easy and fast multi-language on a WebApp. On default MessageSystem supports german and english, you can add easy other language.
+
 
 ### INSTALLATION ###
 
-Copy message.js to your project js folder.
+* import lang folder and message.js to your js folder
+* add message.js on your index.html
+* add loadLanguage() on your init-function
 
-And add message.js to your other script files of your project on the index.html.
 
 ### USAGE ###
 
-#### HTML ####
+Add static strings on getMessages for HTML-Tags easy be selector and the .text(val) method of jQuery.
 
-<pre><code><script type="text/javascript">document.write(GetMessage("IDS_EXAMPLE"));</script></code></pre>
-
-#### JavaScript ####
-
-<pre><code>$('#text').text(GetMessage("IDS_EXAMPLE");</code></pre>
-
-### PLANNED FEATURES ####
-
-* Support of more languages and delicts
-* Support of JSON and XML lists
 
 ### LICENSE ####
 
